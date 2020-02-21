@@ -14,7 +14,21 @@
 <div class="container">
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <a class="navbar-brand" href="mypage_bootstrap.html">Home</a>
-    </nav><br>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="#pro">@Professional Profile</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#project">@Project</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#interest">@Interests</a>
+        </li>
+    </ul>
+    </nav>
+    <br>
+
+
 </div>
 <div class="container">
     <h1>Yang, Yibo - <small class="text-muted">Software Development Methods and Tools</small></h1><br>
@@ -33,8 +47,8 @@
         </div>
     </div>
     <br>
-    <h2>My Professional Profile </h2>
-    <a class="btn btn-dark" href="https://www.github.com/tyyyb" style="font-size: 18px" role="button">My Github
+    <h2  id="pro">My Professional Profile </h2>
+    <a class="btn btn-dark" href="https://www.github.com/tyyyb" role="button" style="font-size: 18px">My Github
     </a>
     <p>
         <img class="rounded-circle"
@@ -44,29 +58,29 @@
     </p>
 
     <br>
-    <h3>My Favorite Projects</h3>
+    <h3 id ="project">My Favorite Projects</h3>
 
     <table class="table table-striped table-bordered">
         <thead>
         <tr>
-            <th scope = "col">#</th>
-            <th scope = "col">Name of the Project</th>
-            <th scope = "col">Technologies Used</th>
+            <th scope="col">#</th>
+            <th scope="col">Name of the Project</th>
+            <th scope="col">Technologies Used</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td scope = "row">1</td>
+            <td scope="row">1</td>
             <td>Sudoku-Solver</td>
             <td>Python</td>
         </tr>
         <tr>
-            <td scope = "row">2</td>
+            <td scope="row">2</td>
             <td>Website</td>
             <td>HTML</td>
         </tr>
         <tr>
-            <td scope = "row">3</td>
+            <td scope="row">3</td>
             <td>HashTable</td>
             <td>C++</td>
         </tr>
@@ -75,7 +89,7 @@
     <br>
     <div class="row">
         <div class="col-6">
-            <h3>My Interests</h3>
+            <h3 id = "interest">My Interests</h3>
         </div>
         <div class="col-6">
             <a class="btn btn-info " href="form.html" role="button">Add Interest</a>
@@ -83,35 +97,49 @@
     </div>
 
     <div class="card-group">
-            <div class="card">
-                <div class="card-body">
-                    <img value="hiking" src="https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/2019-8/couple-hiking-mountain-climbing-1296x728-header.jpg?w=1155" class="card-img-top embed-responsive-item">
-                    <h4>Hiking</h4>
-                    <p>I like hiking because it taught me to appreciate the nature and the world.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <img value="RoadTripping" src="https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/11/stefan-machler-440749-1170x658.jpg" class="card-img-top embed-responsive-item">
-                    <h4>Road Tripping</h4>
-                    <p>I like taking road trip because it let me see different part of the country and people.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <img value="flying" src="https://www.m0a.com/wordpress/wp-content/uploads/2011/09/Screen-shot-2011-09-26-at-10.40.23-AM.png" class="card-img-top embed-responsive-item">
-                    <h4>Flying</h4>
-                    <p>I like flying because it is fun to see everything from the sky!</p>
-                </div>
+        <div class="card">
+            <div class="card-body">
+                <img class="card-img-top embed-responsive-item"
+                     src="https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/2019-8/couple-hiking-mountain-climbing-1296x728-header.jpg?w=1155"
+                     value="hiking">
+                <h4>Hiking</h4>
+                <p>I like hiking because it taught me to appreciate the nature and the world.</p>
             </div>
         </div>
+        <div class="card">
+            <div class="card-body">
+                <img class="card-img-top embed-responsive-item"
+                     src="https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/11/stefan-machler-440749-1170x658.jpg"
+                     value="RoadTripping">
+                <h4>Road Tripping</h4>
+                <p>I like taking road trip because it let me see different part of the country and people.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <img class="card-img-top embed-responsive-item"
+                     src="https://www.m0a.com/wordpress/wp-content/uploads/2011/09/Screen-shot-2011-09-26-at-10.40.23-AM.png"
+                     value="flying">
+                <h4>Flying</h4>
+                <p>I like flying because it is fun to see everything from the sky!</p>
+            </div>
+        </div>
+    </div>
     <br>
     <br>
     <br>
-
 
 </div>
+
+<div class="container">
+    <footer class="py-3 bg-dark text-white-50" id="sticky-footer">
+        <div class="container text-center">
+            Copyright &copy; Yibo Yang at University of Colorado Boulder
+        </div>
+    </footer>
+</div>
 </body>
+
 
 </html>
 
