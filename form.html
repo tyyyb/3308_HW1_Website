@@ -1,3 +1,4 @@
+<!--Yibo Yang, 2020, CSCI 3308-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,22 +13,65 @@
 <body>
 <form>
     <div class="container">
-        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
             <a class="navbar-brand" href="mypage_bootstrap.html">Home</a>
         </nav>
+    </div>
+    <div class="container">
         <br>
         <h1>Add New Interest</h1>
         <div class="form-group">
             <label for="Interest">Interest Name</label>
-            <input aria-describedby="emailHelp" class="form-control" id="Interest" placeholder="Name"
+            <input class="form-control" id="Interest" placeholder="Name"
                    type="Name">
         </div>
         <div class="form-group">
             <label for="InterestDescription">Text About Interest</label>
-            <input class="form-control" id="InterestDescription" type="InterestDescription">
+            <input class="form-control" id="InterestDescription" style="height: 150px" type="InterestDescription">
         </div>
 
+        <div class="row">
+            <div class="col">
+                <h6>Upload Local Image</h6>
+                <input id="myFile" name="image" type="file"> <br>
+                <br>
+                <h6>ON a scale of 1-5, how interested in this are you?</h6>
+                <input type="checkbox" id="interest1" name = "interest1" value="1">
+                <label for="interest1"> 1</label> &nbsp&nbsp
+                <input type="checkbox" id="interest2" name = "interest2" value="2">
+                <label for="interest2"> 2</label>&nbsp&nbsp
+                <input type="checkbox" id="interest3" name = "interest3" value="3">
+                <label for="interest3"> 3</label>&nbsp&nbsp
+                <input type="checkbox" id="interest4" name = "interest4" value="4">
+                <label for="interest4"> 4</label>&nbsp&nbsp
+                <input type="checkbox" id="interest5" name = "interest5" value="5">
+                <label for="interest5"> 5</label>&nbsp&nbsp
+                <br><br>
+            </div>
+            <div class="col">
+                <h6 for="selTweets">Select # Tweets to Display:</h6>
+                <select class="form-control" id="selTweets">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <h5>Login to Finish Submitting</h5>
+        <div class="row">
+            <div class="col">
+                <input placeholder="Username" class="form-control" id="Username" >
+            </div>
+            <div class="col">
+                <input placeholder="Password" class="form-control" id="Password" type="password" >
+            </div>
+        </div><br>
         <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+
     </div>
 </form>
 </body>
