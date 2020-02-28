@@ -1,5 +1,5 @@
 Yibo Yang
-Home Page: https://tyyyb.github.io/3308_HW1_Website/
+Github Web Page: https://tyyyb.github.io/3308_HW1_Website/
 Repository:https://github.com/tyyyb/3308_HW1_Website
 
 Bonus Question:
