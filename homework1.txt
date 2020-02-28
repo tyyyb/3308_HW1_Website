@@ -1,8 +1,0 @@
-Yibo Yang
-Home Page: https://tyyyb.github.io/3308_HW1_Website/
-Repository:https://github.com/tyyyb/3308_HW1_Website
-
-Extra bootstrap elements:
--Footer on the Home Page
--HyperLink on Nav bar on the Home Page
--Add Carousel feature to Interests Card
