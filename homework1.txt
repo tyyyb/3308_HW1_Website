@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+Yibo Yang
+>>>>>>> gh-pages
 Home Page: https://tyyyb.github.io/3308_HW1_Website/
 Repository:https://github.com/tyyyb/3308_HW1_Website
 
