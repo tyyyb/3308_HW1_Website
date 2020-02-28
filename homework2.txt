@@ -2,4 +2,5 @@ Yibo Yang
 Home Page: https://tyyyb.github.io/3308_HW1_Website/
 Repository:https://github.com/tyyyb/3308_HW1_Website
 
-Attemped the Bonus Point on HW2, SpecRunner
+Bonus Question:
+I have attemped the Bonus Question on HW2 (SpecRunner)
